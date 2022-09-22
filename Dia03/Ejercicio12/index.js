@@ -1,4 +1,3 @@
-let ver = true;
 let repeticion = 10;
 let index = 0;
 
