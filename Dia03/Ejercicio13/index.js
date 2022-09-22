@@ -3,7 +3,7 @@ let index = 0;
 
 let frase = prompt("Por favor ingrese una frase");
 while(ver){
-    let repeticion = prompt("Por favor ingrese el número de veces que desea que se repita la frase");
+    let repeticion = Number(prompt("Por favor ingrese el número de veces que desea que se repita la frase"));
     if(!isNaN(repeticion)){
         ver = false;
         while(index < repeticion){
